@@ -1,7 +1,5 @@
 
-<p align="center">
-  <img src="https://telegra.ph/file/ba06e09e38cbf8414a5ba.jpg">
-</p>
+<p align="center"><img src="https://telegra.ph/file/122a7947666c331784c4d.jpg"></p>
 
 #  Tg_Phub_Bot
 Me On Telegram [MASHA](t.me/TheProgrammerCaT_Bot)
