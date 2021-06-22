@@ -2,7 +2,7 @@
 <p align="center"><img src="https://telegra.ph/file/122a7947666c331784c4d.jpg"></p>
 
 #  Tg_Phub_Bot
-Me On Telegram [MASHA](t.me/TheProgrammerCaT_Bot)
+Me On Telegram [NaughtyHub](http://t.me/NaughtyHubBot)
 This is just a demo bot.. Don't try to add to your group.. Create your own bot 
 ## How To Host
 <p align="center">The easiest way to deploy this Bot<p align="center">
