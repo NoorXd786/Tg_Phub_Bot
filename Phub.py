@@ -23,7 +23,7 @@ else:
 
 # ARQ API and Bot Initialize---------------------------------------------------
 session = ClientSession()
-arq = ARQ("https://thearq.tech", ARQ_API_KEY, session)
+arq = ARQ("https://arq.hamker.in", ARQ_API_KEY, session)
 pornhub = arq.pornhub
 phdl = arq.phdl
 
