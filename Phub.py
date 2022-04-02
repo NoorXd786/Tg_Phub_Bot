@@ -25,7 +25,7 @@ else:
 session = ClientSession()
 arq = ARQ("https://arq.hamker.in", ARQ_API_KEY, session)
 pornhub = arq.pornhub
-phdl = arq.phdl
+phdl = arq.pornhub
 
 app = Client("Tg_PHub_Bot", bot_token=Bot_token, api_id=6,
              api_hash="eb06d4abfb49dc3eeb1aeb98ae0f581e")
