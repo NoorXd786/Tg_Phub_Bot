@@ -45,7 +45,7 @@ async def time_to_seconds(time):
     )
 # Start  -----------------------------------------------------------------------
 @app.on_message(
-    filters.command("start") & ~filters.edited
+    filters.command("start") & ~filters
 )
 async def start(_, message):
     m= await message.reply_text(
