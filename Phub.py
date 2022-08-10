@@ -54,7 +54,7 @@ async def start(_, message):
 
 # Help-------------------------------------------------------------------------
 @app.on_message(
-    filters.command("help") & ~filters.edited
+    filters.command("help") & ~filters
 )
 async def help(_, message):
     await message.reply_text(
@@ -67,7 +67,7 @@ To Search in PHub just simply Type something"""
     
 # Repo  -----------------------------------------------------------------------
 @app.on_message(
-    filters.command("repo") & ~filters.edited
+    filters.command("repo") & ~filters
 )
 async def repo(_, message):
     m= await message.reply_text(
@@ -77,7 +77,7 @@ async def repo(_, message):
 
 # Let's Go----------------------------------------------------------------------
 @app.on_message(
-    filters.private & ~filters.edited & ~filters.command("help") & ~filters.command("start") & ~filters.command("repo")
+    filters.private & ~filters & ~filters.command("help") & ~filters.command("start") & ~filters.command("repo")
     )
 async def sarch(_,message):
     try:
